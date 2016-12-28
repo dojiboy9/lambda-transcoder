@@ -2,15 +2,15 @@
 CURR_DIR=$(pwd)
 
 # install pre-requisites
-sudo yum -y install git
-sudo yum -y install autoconf
-sudo yum -y install automake
-sudo yum -y install gcc
-sudo yum -y install libtool
-sudo yum -y gcc-c++
-sudo yum -y npm
-sudo yum -y install epel-release
-sudo yum -y install yasm
+brew install git
+brew install autoconf
+brew install automake
+brew install gcc
+brew install libtool
+brew gcc-c++
+brew npm
+brew install epel-release
+brew install yasm
 
 # install required node modules
 cd $CURR_DIR/transcoder
